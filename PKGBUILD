@@ -8,6 +8,12 @@ license=('custom')
 package() {
     local f="$startdir/files"
     local share="$pkgdir/usr/share"
+    
+    # branding
+    install -Dm644 "$f/os-release" "$share/vybeos/os-release"
+    install -Dm644 "$f/issue" "$share/vybeos/issue"
+    install -Dm755 "$f/apply-branding.sh" "$share/vybeos/apply-branding.sh"
+    install -Dm644 "$f/00-vybeos-branding.hook" "$share/libalpm/hooks/00-vybeos-branding.hook"
 
     # wallpaper
     install -d "$share/backgrounds/vybeos"

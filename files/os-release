@@ -1,0 +1,8 @@
+NAME="VybeOS"
+PRETTY_NAME="VybeOS"
+ID=vybeos
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;137;180;250"
+HOME_URL="https://vybeos.dev"
+

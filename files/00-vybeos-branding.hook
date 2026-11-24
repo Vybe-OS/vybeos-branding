@@ -1,0 +1,18 @@
+[Trigger]
+Type = Path
+Operation = Install
+Operation = Upgrade
+Target = usr/lib/os-release
+Target = etc/issue
+
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = vybeos-branding
+Target = filesystem
+
+[Action]
+Description = Applying VybeOS branding...
+When = PostTransaction
+Exec = /usr/share/vybeos/apply-branding.sh
