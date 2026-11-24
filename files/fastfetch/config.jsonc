@@ -1,0 +1,28 @@
+{
+  "logo": {
+    "source": "/etc/xdg/fastfetch/vybeos.txt",
+    "type": "file-raw",
+    "width": 50,
+    "height": 20,
+    "padding": { "top": 1, "left": 1, "right": 1 }
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "de",
+    "wm",
+    "terminal",
+    "cpu",
+    "gpu",
+    "memory",
+    "disk",
+    "break",
+    "colors"
+  ]
+}

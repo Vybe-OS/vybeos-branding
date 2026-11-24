@@ -1,0 +1,64 @@
+/* VybeOS - Arctic Blue */
+* {
+    font-family: "Helvetica", "Noto Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+/* Background Waybar */
+window#waybar {
+    background: transparent;
+    color: #14396D;
+}
+
+#clock,
+#status,
+#resources,
+#custom-power {
+    background: rgba(255, 255, 255, 0.94);
+    color: #14396D;
+    padding: 0 12px;
+    margin: 4px 2px;
+    border-radius: 999px;
+    font-size: 12px;
+}
+
+#custom-power {
+    font-size: 14px;
+}
+
+#cpu:hover {
+    background: #ecf6fd;
+}
+
+#memory:hover {
+    background: #ecf6fd;
+}
+
+#network:hover {
+    background: #ecf6fd;
+}
+
+#network.disconnected {
+    color: #C62828;
+}
+
+#battery.charging {
+    color: #218653;
+}
+
+#battery.warning {
+    color: #B77900;
+}
+
+#battery.critical {
+    color: #C62828;
+    border-color: #C62828;
+}
+
+#custom-power:hover {
+    background: #ecf6fd;
+}

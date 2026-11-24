@@ -1,0 +1,59 @@
+/* VybeOS - Arctic Blue wlogout */
+* {
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+window {
+    background-color: rgba(238, 247, 252, 0.4);
+    font-family: "Helvetica", "Noto Sans", sans-serif;
+}
+
+grid {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+button {
+    color: #14396D;
+    background-color: rgba(255, 255, 255, 0.96);
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    background-size: 48px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 16px;
+    margin: 10px;
+    outline: none;
+
+    transition: background-color 180ms ease-in-out,
+                border-color 180ms ease-in-out,
+                background-size 180ms ease-in-out;
+
+    min-width: 150px;
+}
+
+button:hover,
+button:focus {
+    color: #14396D;
+    background-color: #f4faff;
+    border: 2px solid #769aec;
+    background-size: 52px;
+}
+
+#lock {
+    background-image: image(url("/usr/share/wlogout/icons/lock.png"));
+}
+
+#shutdown {
+    background-image: image(url("/usr/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+    background-image: image(url("/usr/share/wlogout/icons/reboot.png"));
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"));
+}
