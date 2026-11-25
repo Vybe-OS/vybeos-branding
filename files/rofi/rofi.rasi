@@ -1,0 +1,66 @@
+* {
+    font: "JetBrainsMono Nerd Font 12";
+    background: #EEF7FC;
+    foreground: #234AB4;
+    accent: #3061D3;
+    selected: #DCEFFD;
+}
+
+window {
+    width: 540px;
+    border: 2px;
+    border-color: #A8D8FC;
+    border-radius: 18px;
+    background-color: @background;
+}
+
+mainbox {
+    padding: 18px;
+    spacing: 12px;
+    children: [inputbar, listview];
+}
+
+inputbar {
+    padding: 12px;
+    spacing: 10px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    children: [prompt, entry];
+}
+
+prompt {
+    text-color: @accent;
+}
+
+entry {
+    text-color: @foreground;
+    placeholder: "Search apps...";
+    placeholder-color: #829DC6;
+}
+
+listview {
+    lines: 6;
+    spacing: 5px;
+    scrollbar: false;
+}
+
+element {
+    padding: 10px;
+    spacing: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element selected {
+    background-color: @selected;
+    text-color: @accent;
+}
+
+element-text {
+    text-color: inherit;
+}
+
+element-icon {
+    size: 24px;
+}

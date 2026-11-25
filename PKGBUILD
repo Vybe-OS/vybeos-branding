@@ -1,5 +1,5 @@
 pkgname=vybeos-branding
-pkgver=1.1.8
+pkgver=1.2.1
 pkgrel=1
 pkgdesc="VybeOS branding and default desktop theme"
 arch=('any')
@@ -39,4 +39,7 @@ package() {
 
     # foot
     install -Dm644 "$f/foot/foot.ini" "$share/vybeos/foot/foot.ini"
+
+    # rofi
+    install -Dm644 "$f/rofi/rofi.rasi" "$share/vybeos/rofi/rofi.rasi"
 }

@@ -1,7 +1,7 @@
 ### Variabel
 set $mod Mod4
 set $term foot -c /usr/share/vybeos/foot/foot.ini
-set $menu wmenu-run
+set $menu rofi -show drun -show-icons -theme /usr/share/vybeos/rofi/rofi.rasi
 
 include /etc/sway/config.d/*
 
