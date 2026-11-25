@@ -1,5 +1,5 @@
 pkgname=vybeos-branding
-pkgver=1.1.3
+pkgver=1.1.4
 pkgrel=1
 pkgdesc="VybeOS branding and default desktop theme"
 arch=('any')
