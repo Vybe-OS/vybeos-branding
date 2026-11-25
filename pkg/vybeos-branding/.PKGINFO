@@ -3,11 +3,11 @@
 pkgname = vybeos-branding
 pkgbase = vybeos-branding
 xdata = pkgtype=pkg
-pkgver = 1.1.2-1
+pkgver = 1.1.3-1
 pkgdesc = VybeOS branding and default desktop theme
 url = 
-builddate = 1795615022
+builddate = 1795616003
 packager = Unknown Packager
-size = 4436440
+size = 4436459
 arch = any
 license = custom
