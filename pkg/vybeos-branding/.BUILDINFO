@@ -1,11 +1,11 @@
 format = 2
 pkgname = vybeos-branding
 pkgbase = vybeos-branding
-pkgver = 1.1.4-1
+pkgver = 1.1.5-1
 pkgarch = any
-pkgbuild_sha256sum = c9f13d5f0c6bea7c13f88a07453704dccfc8ee44b776c4e59a88aa6a023df4e5
+pkgbuild_sha256sum = 4132227b3e3b51ecb66930f9d631d7c12d9ad5eae38223fe77d4ffc82072a043
 packager = Unknown Packager
-builddate = 1795616503
+builddate = 1795623363
 builddir = /home/mutaqinmi/Projects/vybeos/packages/vybeos-branding
 startdir = /home/mutaqinmi/Projects/vybeos/packages/vybeos-branding
 buildtool = makepkg
