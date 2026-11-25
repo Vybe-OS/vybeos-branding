@@ -1,6 +1,6 @@
 ### Variabel
 set $mod Mod4
-set $term foot
+set $term foot -c /usr/share/vybeos/foot/foot.ini
 set $menu wmenu-run
 
 include /etc/sway/config.d/*
