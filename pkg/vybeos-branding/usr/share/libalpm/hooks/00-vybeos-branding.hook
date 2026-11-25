@@ -4,6 +4,7 @@ Operation = Install
 Operation = Upgrade
 Target = usr/lib/os-release
 Target = etc/issue
+Target = etc/sway/config
 
 [Trigger]
 Type = Package
@@ -11,6 +12,7 @@ Operation = Install
 Operation = Upgrade
 Target = vybeos-branding
 Target = filesystem
+Target = sway
 
 [Action]
 Description = Applying VybeOS branding...

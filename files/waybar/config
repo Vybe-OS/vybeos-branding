@@ -75,6 +75,6 @@
       "format": "⏻",
       "tooltip": true,
       "tooltip-format": "Power Menu",
-      "on-click": "wlogout -p layer-shell -b 4"
+      "on-click": "wlogout -p layer-shell -b 4 -l /usr/share/vybeos/wlogout/layout -C /usr/share/vybeos/wlogout/style.css"
   }
 }

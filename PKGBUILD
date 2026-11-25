@@ -1,5 +1,5 @@
 pkgname=vybeos-branding
-pkgver=0.1.0
+pkgver=1.1.1
 pkgrel=1
 pkgdesc="VybeOS branding and default desktop theme"
 arch=('any')
@@ -27,7 +27,7 @@ package() {
     install -Dm644 "$f/fastfetch/vybeos.txt" "$share/vybeos/fastfetch/vybeos.txt"
 
     # sway (config penuh, di-load via XDG dirs)
-    install -Dm644 "$f/sway/config" "$pkgdir/etc/xdg/sway/config"
+    install -Dm644 "$f/sway/config" "$share/vybeos/sway/config"
 
     # waybar
     install -Dm644 "$f/waybar/config" "$share/vybeos/waybar/config"

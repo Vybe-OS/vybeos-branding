@@ -4,7 +4,7 @@ set $term foot
 set $menu wmenu-run
 
 # Background desktop
-output * bg /usr/share/backgrounds/vybeos/wallpaper-2.png fill
+output * bg /usr/share/backgrounds/vybeos/wallpaper.png fill
 
 # Border jendela
 default_border pixel 2
@@ -98,7 +98,7 @@ bindsym Print exec grim -g "$(slurp)" - | wl-copy
 
 ### Bar
 bar {
-    swaybar_command waybar
+    swaybar_command waybar -c /usr/share/vybeos/waybar/config -s /usr/share/vybeos/waybar/style.css
 }
 
 include /etc/sway/config.d/*
