@@ -1,5 +1,5 @@
 pkgname=vybeos-branding
-pkgver=1.1.6
+pkgver=1.1.7
 pkgrel=1
 pkgdesc="VybeOS branding and default desktop theme"
 arch=('any')
@@ -36,4 +36,7 @@ package() {
     # wlogout
     install -Dm644 "$f/wlogout/layout" "$share/vybeos/wlogout/layout"
     install -Dm644 "$f/wlogout/style.css" "$share/vybeos/wlogout/style.css"
+
+    # foot
+    install -Dm644 "$f/foot/foot.ini" "$pkgdir/etc/xdg/foot/foot.ini"
 }
